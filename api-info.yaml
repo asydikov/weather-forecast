@@ -8,7 +8,7 @@ spec:
   lifecycle: deprecated
   owner: team-c
   definition: Some definition
-    $text: https://localhost:44344/swagger/v1/swagger.json
+    $text: https://github.com/asydikov/weather-forecast/blob/main/open-api.json
 backend:
   reading:
     allow:
