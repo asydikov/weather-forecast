@@ -8,4 +8,4 @@ spec:
   lifecycle: deprecated
   owner: team-c
   definition: Some definition
-    $text: https://localhost:44344/swagger/v1/swagger.json
+    $json: https://localhost:44344/swagger/v1/swagger.json
