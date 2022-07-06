@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: petstore
   description: The Petstore API
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://red-gate.com
       title: Redgate
