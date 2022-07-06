@@ -8,7 +8,7 @@ spec:
   lifecycle: deprecated
   owner: team-c
   definition: Some definition
-    json: "https://localhost:44344/swagger/v1/swagger.json"
+    $text: https://localhost:44344/swagger/v1/swagger.json
 backend:
   reading:
     allow:
