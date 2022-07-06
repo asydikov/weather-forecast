@@ -1,8 +1,8 @@
 ﻿apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The Petstore API
+  name: weather forecast
+  description: Weather Forecast API
   annotations:
     backstage.io/techdocs-ref: dir:.
   links:
@@ -12,6 +12,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: petstore@example.com
+  owner: aziz@example.com
   definition:
     $text: http://localhost:16280/swagger/v1/swagger.json
