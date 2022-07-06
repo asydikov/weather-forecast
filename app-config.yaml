@@ -4,7 +4,7 @@ metadata:
   name: weather-forecast
   description: Weather Forecast example for Open API
 spec:
-  type: grpc
+  type: openapi
   lifecycle: deprecated
   owner: team-c
   definition: Some definition
