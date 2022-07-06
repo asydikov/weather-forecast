@@ -14,3 +14,4 @@ backend:
     allow:
       - host: localhost
       - host: 'localhost*'
+      - host: localhost:44344
