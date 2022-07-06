@@ -8,10 +8,10 @@ spec:
   lifecycle: production
   owner: petstore@example.com
   definition:
-    $text: https://localhost:44344/swagger/v1/swagger.json
+    $text: https://localhost:16280/swagger/v1/swagger.json
 backend:
   reading:
     allow:
       - host: localhost
       - host: 'localhost*'
-      - host: localhost:44344
+      - host: localhost:16280
