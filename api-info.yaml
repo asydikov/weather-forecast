@@ -9,3 +9,8 @@ spec:
   owner: team-c
   definition: Some definition
     $json: "https://localhost:44344/swagger/v1/swagger.json"
+backend:
+  reading:
+    allow:
+      - host: localhost
+      - host: 'localhost*'
