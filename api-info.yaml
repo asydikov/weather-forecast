@@ -3,6 +3,10 @@ kind: API
 metadata:
   name: petstore
   description: The Petstore API
+  links:
+    - url: https://red-gate.com
+      title: Redgate
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
