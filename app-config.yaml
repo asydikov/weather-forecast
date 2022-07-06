@@ -1,15 +1,10 @@
 ﻿apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: weather-forecast
-  description: To demo swagger api.
-  tags:
-    - c#
-  # Example for optional annotations
-  annotations:
-    github.com/project-slug: asydikov/weather-forecast
-    backstage.io/techdocs-ref: dir:.
+  description: Weather Forecast example for Open API
 spec:
-  type: webapi
-  owner: aziz@example.com
-  lifecycle: experimental
+  type: grpc
+  lifecycle: deprecated
+  owner: team-c
+  definition: Some definition
