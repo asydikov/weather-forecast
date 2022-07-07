@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: WeatherApp
   description: Mobile Weather App
+  annotations:
+    github.com/project-slug: asydikov/weather-forecast
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: mobile
   lifecycle: production
