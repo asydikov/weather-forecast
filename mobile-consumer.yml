@@ -13,3 +13,5 @@ spec:
   system: test-system
   dependsOn:
     - resource:weather-forecast
+  consumesApis:
+    - weather-forecast
