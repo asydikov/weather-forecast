@@ -12,6 +12,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: aziz@example.com
+  owner: group:kubernaughts
   definition:
     $text: http://localhost:16280/swagger/v1/swagger.json
