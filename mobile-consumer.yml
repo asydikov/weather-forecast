@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: WeatherApp
+  description: Mobile Weather App
+spec:
+  type: mobile
+  lifecycle: production
+  owner: kubernaughts
+  system: test-system
+  dependsOn:
+    - resource:weather-forecast
