@@ -1,7 +1,7 @@
 ﻿apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: weather forecast
+  name: weather-forecast
   description: Weather Forecast API
   annotations:
     backstage.io/techdocs-ref: dir:.
