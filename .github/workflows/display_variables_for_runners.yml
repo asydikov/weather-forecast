@@ -6,6 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: printdefualtvariablesubuntu
+        shell: pwsh
         run: echo ${env:GITHUB_RUN_ID}
                   ${env:GITHUB_RUN_NUMBER}
   macos_var_test_job:
@@ -13,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: printdefualtvariablesmacos
+        shell: pwsh
         run: echo ${env:GITHUB_RUN_ID}
                   ${env:GITHUB_RUN_NUMBER}
   windows_var_test_job:
@@ -20,5 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: printdefualtvariableswindows
+        shell: pwsh
         run: echo ${env:GITHUB_RUN_ID}
                   ${env:GITHUB_RUN_NUMBER}
