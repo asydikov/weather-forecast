@@ -1,5 +1,5 @@
 name: Print Default Env Variables For Different machines
-on: [push]
+on: [workflow_dispatch]
 jobs:
   ubuntu_var_test_job:
     runs-on: ubuntu-latest
