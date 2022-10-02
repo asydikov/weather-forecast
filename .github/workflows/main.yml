@@ -1,0 +1,24 @@
+name: Print Default Env Variables For Different machines
+on: [push]
+jobs:
+  ubuntu_var_test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: printdefualtvariablesubuntu
+        run: echo $GITHUB_RUN_ID
+                  $GITHUB_RUN_NUMBER
+  macos_var_test_job:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: printdefualtvariablesmacos
+        run: echo $GITHUB_RUN_ID
+                  $GITHUB_RUN_NUMBER
+  windows_var_test_job:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: printdefualtvariableswindows
+        run: echo $GITHUB_RUN_ID
+                  $GITHUB_RUN_NUMBER
