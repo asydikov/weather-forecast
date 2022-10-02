@@ -1,4 +1,4 @@
-name: Print Default Env Variables For Different machines
+name: Print Default Env Variables For Different runners(machines)
 on: [workflow_dispatch]
 jobs:
   ubuntu_var_test_job:
